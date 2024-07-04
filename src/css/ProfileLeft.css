@@ -1,0 +1,14 @@
+.profile-left {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.profile-left .image {
+    background-image: url('profile.jpg');
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}

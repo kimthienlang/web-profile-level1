@@ -1,0 +1,5 @@
+.profile-right {
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 300px);
+    padding: 10px;
+}

@@ -1,0 +1,54 @@
+.user-container {
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-container .user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-container .user-info .user-name {
+    font-size: 26px;
+    color: rgb(87, 87, 87);
+    margin: 10px 0px;
+}
+.user-container .user-info .user-job {
+    color: rgb(66, 154, 255);
+    font-size: 14px;
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.user-container .user-info .location {
+    color: rgb(105, 105, 105);
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.user-container .user-info .location i {
+    font-size: 16px;
+    margin: 0px 5px 0px 0px;
+}
+
+.user-container .bookmark {
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.user-container .bookmark i {
+    font-size: 16px;
+    margin: 0px 5px 0px 0px;
+    color: rgb(204, 204, 204);
+}
+
+.user-container .bookmark span {
+    color: rgb(204, 204, 204);
+}
