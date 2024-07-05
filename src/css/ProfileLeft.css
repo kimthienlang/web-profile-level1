@@ -5,7 +5,7 @@
 }
 
 .profile-left .image {
-    background-image: url('profile.jpg');
+    background-image: url('public/profile.jpg');
     background-size: 100%;
     background-position: center;
     width: 100%;
