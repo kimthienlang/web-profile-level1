@@ -19,7 +19,7 @@
 }
 
 .logo .logo-img {
-    background-image: url('Lang.png');
+    background-image: url('../assets/Lang.png');
     background-size: 160%;
     background-position: center;
     width: 100px;
@@ -60,7 +60,7 @@
 }
 
 .user .user-img {
-    background-image: url('profile.jpg');
+    background-image: url('../assets/profile.jpg');
     background-size: 120%;
     background-position: center;
     background-repeat: no-repeat;
