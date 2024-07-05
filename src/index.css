@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: 'roboto';
 }
+body {
+  overflow-x: hidden;
+}
 
 #root {
   width: 100vw;
@@ -24,26 +27,24 @@
 
 .main-board {
   position: absolute;
-  width: 90%;
+  top: 10px;
   min-height: 90%;
-  background-color: rgb(255, 247, 247);
-  min-width: 500px;
-  max-width: 1200px;
+  min-width: 800px;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.986);
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 3px 0px 14px 6px #747272a1;
+  box-shadow: 0px 0px 40px 8px rgba(80, 80, 80, 0.192);
+  overflow: hidden;
 }
 .main-board .top {
   height: 100px;
-  background-color: aquamarine;
-}
-
-.main-board .top {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-board .bottom {
-  background-color: blue;
   height: calc(100% - 100px);
   display: flex;
 }

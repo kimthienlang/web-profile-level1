@@ -8,7 +8,11 @@ import About from './About'
 export default function ProfileRight() {
   return (
     <div className="profile-right">
-        <UserInfo />
+        <UserInfo 
+          fullName={'Le Anh Tuan'}
+          location={'Da Nang City, DNC'}
+          career={'Software Engineer'}
+        />
         <Rankings />
         <Divider title=''/>
         <About />

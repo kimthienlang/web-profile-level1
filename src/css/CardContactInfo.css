@@ -1,0 +1,28 @@
+
+.contact-info {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.ci-title {
+    color: #c4c4c4;
+}
+
+.row-ci {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.row-ci div {
+    display: inline-block;
+}
+
+.row-ci .name-ci {
+    min-width: 100px;
+}
+.row-ci .value-ci {
+    min-width: 200px;
+}

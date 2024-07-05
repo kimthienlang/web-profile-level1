@@ -1,6 +1,9 @@
 import React from 'react'
 
-const skills = ['Branding', 'UI/UX', 'Web-Design', 'Packaging', 'Print & Editorial']
+const skills = [
+    'Algorithm', 'React', 'Web-Design', 
+    'Front-end', 'GitHub', 'HTML, CSS, JS'
+]
 
 export default function Skill() {
     return (

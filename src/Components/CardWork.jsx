@@ -19,7 +19,7 @@ const style = {
         height: '25px',
         color: '#42a5f4',
         fontSize: '14px',
-        fontWeight: '800',
+        fontWeight: '600',
         letterSpacing: '1px',
         padding: '5px 10px 5px 10px',
         borderRadius: '5px'

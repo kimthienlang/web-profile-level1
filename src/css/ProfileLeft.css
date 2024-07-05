@@ -1,14 +1,21 @@
 .profile-left {
     width: 300px;
     background-color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 30px;
 }
 
 .profile-left .image {
     background-image: url('profile.jpg');
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
     width: 100%;
     padding-bottom: 100%;
-    margin: auto;
     margin-bottom: 15px;
+    border-radius: 50%;
+    transition: 1000ms;
+}
+
+.profile-left .image:hover {
+    transition: 1000ms;
+    transform: rotate(360deg);
 }
