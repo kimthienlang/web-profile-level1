@@ -12,7 +12,7 @@ export default function ProfileLeft() {
         <div className="image"></div>
         <Divider title='work' />
         <CardWork 
-          nameCompany='FPT Univercity'
+          nameCompany='FPT University'
           location='FPT Da Nang Urban Area, 
           Hoa Hai Ward, Ngu Hanh Son District, 
           Da Nang City'
